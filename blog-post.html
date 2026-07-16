@@ -22,6 +22,37 @@
 body{margin:0;font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;}
 a{color:inherit;text-decoration:none;}
 a:hover{color:inherit;}
+
+@media (max-width:991px){
+  h1{font-size:40px !important;}
+  h2{font-size:32px !important;}
+  [style*="grid-template-columns: repeat(3"]{grid-template-columns:repeat(2,1fr) !important;}
+  [style*="grid-template-columns: repeat(4"]{grid-template-columns:repeat(2,1fr) !important;}
+  [style*="grid-template-columns: repeat(5"]{grid-template-columns:repeat(2,1fr) !important;}
+  [style*="grid-template-columns: 1fr 1fr"]{grid-template-columns:1fr !important;}
+  [style*="grid-template-columns: 0.6fr 1fr"]{grid-template-columns:1fr !important;}
+  [style*="grid-template-columns: 0.5fr 1fr"]{grid-template-columns:1fr !important;}
+  [style*="grid-template-columns: 40% 1fr"]{grid-template-columns:1fr !important;}
+  [style*="padding: 112px 5%"]{padding-top:72px !important;padding-bottom:72px !important;}
+  header [style*="gap: 22px"]{min-width:0 !important;flex:1 1 auto !important;}
+  header [style*="gap: 18px"]{gap:14px !important;overflow-x:auto !important;min-width:0 !important;scrollbar-width:none;}
+  header a[style*="1px solid rgba(3, 3, 3, 0.15)"]{display:none !important;}
+}
+@media (max-width:767px){
+  h1{font-size:31px !important;letter-spacing:-0.3px !important;}
+  h2{font-size:25px !important;}
+  h3{font-size:21px !important;}
+  [style*="grid-template-columns: repeat(3"]{grid-template-columns:1fr !important;}
+  [style*="grid-template-columns: repeat(4"]{grid-template-columns:1fr !important;}
+  [style*="grid-template-columns: repeat(5"]{grid-template-columns:1fr !important;}
+  [style*="grid-template-columns: 40% 1fr"]{grid-template-columns:1fr !important;}
+  [style*="padding: 112px 5%"]{padding-top:56px !important;padding-bottom:56px !important;}
+  [style*="gap: 0 80px"],[style*="gap: 48px 80px"],[style*="gap: 80px"],[style*="gap: 64px 48px"]{gap:36px !important;}
+  [style*="font-size: 80px"],[style*="font-size: 64px"]{font-size:46px !important;}
+  [style*="min-width: 400px"]{min-width:0 !important;}
+  [style*="grid-template-columns: 1fr max-content"]{grid-template-columns:1fr !important;}
+}
+
 </style>
 </helmet>
 <div style="font-family:'Inter',sans-serif;color:#030303;">
