@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+@font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url('reference/fonts/inter-400.woff2') format('woff2');}
+@font-face{font-family:'Inter';font-style:normal;font-weight:500;font-display:swap;src:url('reference/fonts/inter-500.woff2') format('woff2');}
+@font-face{font-family:'Inter';font-style:normal;font-weight:600;font-display:swap;src:url('reference/fonts/inter-600.woff2') format('woff2');}
+@font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;src:url('reference/fonts/inter-700.woff2') format('woff2');}
+@font-face{font-family:'Manrope';font-style:normal;font-weight:500;font-display:swap;src:url('reference/fonts/manrope-500.woff2') format('woff2');}
+@font-face{font-family:'Manrope';font-style:normal;font-weight:600;font-display:swap;src:url('reference/fonts/manrope-600.woff2') format('woff2');}
+@font-face{font-family:'Manrope';font-style:normal;font-weight:700;font-display:swap;src:url('reference/fonts/manrope-700.woff2') format('woff2');}
+@font-face{font-family:'Manrope';font-style:normal;font-weight:800;font-display:swap;src:url('reference/fonts/manrope-800.woff2') format('woff2');}
+*{box-sizing:border-box;}
+body{margin:0;font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;}
+a{color:inherit;text-decoration:none;}
+a:hover{color:inherit;}
+input:focus,textarea:focus,select:focus{outline:2px solid #4C8BBB;outline-offset:0;}
+</style>
+</helmet>
+<div style="font-family:'Inter',sans-serif;color:#030303;">
+
+<header style="position:sticky;top:0;z-index:50;background:#E5EEF5;border-bottom:1px solid rgba(3,3,3,0.15);">
+  <nav style="max-width:1280px;margin-inline:auto;padding:0 5%;height:72px;display:flex;align-items:center;justify-content:space-between;">
+    <div style="display:flex;align-items:center;gap:22px;">
+      <a href="index.html" style="display:flex;align-items:center;"><img src="reference/logo/gww-logo.png" alt="GWW Pty Ltd logo" style="height:46px;width:auto;display:block;" /></a>
+      <div style="display:flex;align-items:center;gap:18px;font-size:15px;white-space:nowrap;">
+        <a href="index.html" style="font-weight:400;">Home</a>
+        <a href="about.html" style="font-weight:400;">About</a>
+        <a href="services.html" style="font-weight:400;">Services</a>
+        <a href="pricing.html" style="font-weight:400;">Pricing</a>
+        <a href="case-studies.html" style="font-weight:400;">Case studies</a>
+        <a href="blog.html" style="font-weight:400;">Blog</a>
+      </div>
+    </div>
+    <div style="display:flex;align-items:center;gap:16px;">
+      <a href="contact.html" style="display:inline-flex;align-items:center;justify-content:center;padding:8px 14px;border-radius:6px;border:1px solid rgba(3,3,3,0.15);background:transparent;font-weight:500;font-size:15px;white-space:nowrap;">Free consult</a>
+      <a href="contact.html" style="display:inline-flex;align-items:center;justify-content:center;padding:8px 14px;border-radius:6px;border:1px solid #005A9E;background:#005A9E;color:#fff;font-weight:600;font-size:15px;white-space:nowrap;">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section style="background:#E5EEF5;padding:112px 5%;">
+  <div style="max-width:768px;margin-inline:auto;text-align:center;">
+    <h1 style="margin:0 0 24px;font-family:'Manrope',sans-serif;font-weight:500;font-size:57.6px;line-height:1;letter-spacing:-0.6px;text-transform:uppercase;">Get in touch</h1>
+    <p style="margin:0;font-size:18px;line-height:1.5;">Tell us about the problems you need solved. The conversation starts here and it costs nothing.</p>
+  </div>
+</section>
+
+<section style="background:#030303;color:#fff;padding:112px 5%;">
+  <div style="max-width:1280px;margin-inline:auto;display:grid;grid-template-columns:1fr 1fr;align-items:start;gap:80px;">
+    <div>
+      <div style="margin-bottom:32px;">
+        <p style="margin:0 0 16px;font-weight:600;font-size:16px;">Contact</p>
+        <h2 style="margin:0 0 24px;font-family:'Manrope',sans-serif;font-weight:500;font-size:41.6px;line-height:1;letter-spacing:-0.42px;text-transform:uppercase;">Start here</h2>
+        <p style="margin:0;font-size:18px;line-height:1.5;">We typically respond within two business hours. No exceptions.</p>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr;gap:16px;padding:8px 0;">
+        <a href="mailto:agnesxjh@gmail.com" style="display:flex;align-items:center;gap:16px;"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><p style="margin:0;font-size:16px;">agnesxjh@gmail.com</p></a>
+        <a href="tel:0405970743" style="display:flex;align-items:center;gap:16px;"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2 4.2 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg><p style="margin:0;font-size:16px;">0405 970 743</p></a>
+        <div style="display:flex;align-items:center;gap:16px;"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg><p style="margin:0;font-size:16px;">The Hills District, Sydney NSW</p></div>
+        <div style="display:flex;align-items:center;gap:16px;"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 4v3M17 4v3"/></svg><p style="margin:0;font-size:16px;">GWW Pty Ltd · ABN 69 661 318 538</p></div>
+      </div>
+    </div>
+
+    <sc-if value="{{ submitted }}" hint-placeholder-val="{{ false }}">
+      <div style="max-width:512px;border:1px solid rgba(255,255,255,0.2);border-radius:8px;padding:48px;text-align:center;">
+        <div style="width:56px;height:56px;border-radius:9999px;background:#005A9E;display:flex;align-items:center;justify-content:center;margin:0 auto 24px;"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+        <h3 style="margin:0 0 12px;font-family:'Manrope',sans-serif;font-weight:500;font-size:28.8px;line-height:1;text-transform:uppercase;letter-spacing:-0.29px;">Message sent</h3>
+        <p style="margin:0 0 24px;font-size:18px;line-height:1.5;">Thanks {{ sentName }} — we've got your message and will reply within two business hours.</p>
+        <button onClick="{{ reset }}" type="button" style="display:inline-flex;align-items:center;justify-content:center;padding:8px 22px;border-radius:6px;border:1px solid rgba(255,255,255,0.2);background:transparent;color:#fff;font-weight:500;font-size:16px;cursor:pointer;font-family:'Inter',sans-serif;">Send another</button>
+      </div>
+    </sc-if>
+    <sc-if value="{{ notSubmitted }}" hint-placeholder-val="{{ true }}">
+      <form onSubmit="{{ handleSubmit }}" style="max-width:512px;display:grid;grid-template-columns:1fr;gap:24px;">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;">
+          <div style="display:grid;"><label for="firstName" style="margin-bottom:8px;font-size:16px;">First name</label><input id="firstName" name="firstName" type="text" required style="padding:10px 12px;border-radius:6px;border:1px solid rgba(255,255,255,0.2);background:transparent;color:#fff;font-family:'Inter',sans-serif;font-size:16px;" /></div>
+          <div style="display:grid;"><label for="lastName" style="margin-bottom:8px;font-size:16px;">Last name</label><input id="lastName" name="lastName" type="text" style="padding:10px 12px;border-radius:6px;border:1px solid rgba(255,255,255,0.2);background:transparent;color:#fff;font-family:'Inter',sans-serif;font-size:16px;" /></div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;">
+          <div style="display:grid;"><label for="email" style="margin-bottom:8px;font-size:16px;">Email</label><input id="email" name="email" type="email" required style="padding:10px 12px;border-radius:6px;border:1px solid rgba(255,255,255,0.2);background:transparent;color:#fff;font-family:'Inter',sans-serif;font-size:16px;" /></div>
+          <div style="display:grid;"><label for="phone" style="margin-bottom:8px;font-size:16px;">Phone number</label><input id="phone" name="phone" type="text" style="padding:10px 12px;border-radius:6px;border:1px solid rgba(255,255,255,0.2);background:transparent;color:#fff;font-family:'Inter',sans-serif;font-size:16px;" /></div>
+        </div>
+        <div style="display:grid;"><label for="company" style="margin-bottom:8px;font-size:16px;">Company name</label><input id="company" name="company" type="text" style="padding:10px 12px;border-radius:6px;border:1px solid rgba(255,255,255,0.2);background:transparent;color:#fff;font-family:'Inter',sans-serif;font-size:16px;" /></div>
+        <div style="display:grid;"><label for="topic" style="margin-bottom:8px;font-size:16px;">Service interest</label>
+          <select id="topic" name="topic" style="padding:10px 12px;border-radius:6px;border:1px solid rgba(255,255,255,0.2);background:#030303;color:#fff;font-family:'Inter',sans-serif;font-size:16px;">
+            <option value="">Select one</option><option value="managed-it">Managed IT services</option><option value="cybersecurity">Cybersecurity</option><option value="cloud">Cloud solutions</option><option value="digital">Digital transformation</option><option value="strategy">IT strategy &amp; consulting</option>
+          </select>
+        </div>
+        <div style="display:grid;"><label for="message" style="margin-bottom:8px;font-size:16px;">Message</label><textarea id="message" name="message" placeholder="Tell us the problem you need solved" style="min-height:180px;padding:10px 12px;border-radius:6px;border:1px solid rgba(255,255,255,0.2);background:transparent;color:#fff;font-family:'Inter',sans-serif;font-size:16px;resize:vertical;"></textarea></div>
+        <label style="display:flex;align-items:center;gap:8px;font-size:14px;cursor:pointer;"><input type="checkbox" required style="accent-color:#005A9E;width:16px;height:16px;" />I accept the privacy policy and terms.</label>
+        <div><button type="submit" style="display:inline-flex;align-items:center;justify-content:center;padding:10px 24px;border-radius:6px;border:1px solid #005A9E;background:#005A9E;color:#fff;font-weight:500;font-size:16px;cursor:pointer;font-family:'Inter',sans-serif;">Submit</button></div>
+      </form>
+    </sc-if>
+  </div>
+</section>
+
+<section style="background:#00243F;color:#fff;padding:112px 5%;">
+  <div style="max-width:1280px;margin-inline:auto;">
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:48px;">
+      <div>
+        <div style="margin-bottom:24px;"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></div>
+        <h3 style="margin:0 0 16px;font-family:'Manrope',sans-serif;font-weight:500;font-size:28.8px;line-height:1;text-transform:uppercase;letter-spacing:-0.29px;">Email</h3>
+        <p style="margin:0 0 24px;font-size:16px;line-height:1.5;">Send us the details and we will get back to you fast.</p>
+        <a href="mailto:agnesxjh@gmail.com" style="text-decoration:underline;font-size:16px;">agnesxjh@gmail.com</a>
+      </div>
+      <div>
+        <div style="margin-bottom:24px;"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2 4.2 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></div>
+        <h3 style="margin:0 0 16px;font-family:'Manrope',sans-serif;font-weight:500;font-size:28.8px;line-height:1;text-transform:uppercase;letter-spacing:-0.29px;">Phone</h3>
+        <p style="margin:0 0 24px;font-size:16px;line-height:1.5;">Talk to a consultant, not a switchboard.</p>
+        <a href="tel:0405970743" style="text-decoration:underline;font-size:16px;">0405 970 743</a>
+      </div>
+      <div>
+        <div style="margin-bottom:24px;"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+        <h3 style="margin:0 0 16px;font-family:'Manrope',sans-serif;font-weight:500;font-size:28.8px;line-height:1;text-transform:uppercase;letter-spacing:-0.29px;">Service area</h3>
+        <p style="margin:0 0 24px;font-size:16px;line-height:1.5;">Proudly serving businesses across Sydney.</p>
+        <span style="font-size:16px;">The Hills District, Sydney NSW</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:#030303;color:#fff;padding:112px 5%;">
+  <div style="max-width:768px;margin-inline:auto;text-align:center;">
+    <h2 style="margin:0 0 24px;font-family:'Manrope',sans-serif;font-weight:500;font-size:41.6px;line-height:1;letter-spacing:-0.42px;text-transform:uppercase;">Need urgent IT support right now?</h2>
+    <p style="margin:0 0 32px;font-size:18px;line-height:1.5;">Existing clients can reach us any time. We pick up.</p>
+    <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:16px;">
+      <a href="tel:0405970743" style="display:inline-flex;align-items:center;justify-content:center;padding:8px 22px;border-radius:6px;border:1px solid #005A9E;background:#005A9E;color:#fff;font-weight:500;font-size:16px;">Call 0405 970 743</a>
+      <a href="services.html" style="display:inline-flex;align-items:center;justify-content:center;padding:8px 22px;border-radius:6px;border:1px solid rgba(255,255,255,0.2);background:transparent;color:#fff;font-weight:500;font-size:16px;">Services</a>
+    </div>
+  </div>
+</section>
+
+<footer style="background:#030303;color:#fff;padding:80px 5%;">
+  <div style="max-width:1280px;margin-inline:auto;">
+    <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:24px;flex-wrap:wrap;">
+      <div style="max-width:420px;"><h3 style="margin:0;font-size:18px;font-weight:600;">Join our newsletter</h3><p style="margin:4px 0 0;font-size:16px;">Practical insights on security, cloud and IT strategy for Australian businesses.</p></div>
+      <div style="min-width:400px;max-width:448px;">
+        <form style="margin-bottom:12px;display:grid;grid-template-columns:1fr max-content;gap:16px;">
+          <input type="email" placeholder="Enter your email" style="padding:8px 12px;border-radius:6px;border:1px solid rgba(255,255,255,0.2);background:transparent;color:#fff;font-family:'Inter',sans-serif;font-size:16px;" />
+          <button type="button" style="display:inline-flex;align-items:center;justify-content:center;padding:8px 16px;border-radius:6px;border:1px solid rgba(255,255,255,0.2);background:transparent;color:#fff;font-weight:500;font-size:16px;">Subscribe</button>
+        </form>
+        <p style="margin:0;font-size:12px;">We respect your privacy. Unsubscribe any time.</p>
+      </div>
+    </div>
+    <div style="padding:80px 0;"><div style="height:1px;width:100%;background:rgba(255,255,255,0.2);"></div></div>
+    <div style="margin-bottom:80px;display:grid;grid-template-columns:repeat(5,1fr);gap:40px 32px;align-items:start;">
+      <div><h4 style="margin:0 0 8px;font-size:16px;font-weight:600;">Services</h4><ul style="list-style:none;margin:0;padding:0;"><li style="padding:8px 0;font-size:14px;"><a href="service-managed-it.html">Managed IT</a></li><li style="padding:8px 0;font-size:14px;"><a href="service-cybersecurity.html">Cybersecurity</a></li><li style="padding:8px 0;font-size:14px;"><a href="service-cloud-solutions.html">Cloud solutions</a></li><li style="padding:8px 0;font-size:14px;"><a href="service-digital-transformation.html">Digital transformation</a></li><li style="padding:8px 0;font-size:14px;"><a href="service-it-strategy.html">IT strategy</a></li></ul></div>
+      <div><h4 style="margin:0 0 8px;font-size:16px;font-weight:600;">Company</h4><ul style="list-style:none;margin:0;padding:0;"><li style="padding:8px 0;font-size:14px;"><a href="about.html">About us</a></li><li style="padding:8px 0;font-size:14px;"><a href="case-studies.html">Case studies</a></li><li style="padding:8px 0;font-size:14px;"><a href="pricing.html">Pricing</a></li><li style="padding:8px 0;font-size:14px;"><a href="blog.html">Blog</a></li><li style="padding:8px 0;font-size:14px;"><a href="contact.html">Contact</a></li></ul></div>
+      <div><h4 style="margin:0 0 8px;font-size:16px;font-weight:600;">Industries</h4><ul style="list-style:none;margin:0;padding:0;"><li style="padding:8px 0;font-size:14px;"><a href="#">Financial services</a></li><li style="padding:8px 0;font-size:14px;"><a href="#">Healthcare</a></li><li style="padding:8px 0;font-size:14px;"><a href="#">Legal</a></li><li style="padding:8px 0;font-size:14px;"><a href="#">Professional services</a></li><li style="padding:8px 0;font-size:14px;"><a href="#">Retail</a></li></ul></div>
+      <div><h4 style="margin:0 0 8px;font-size:16px;font-weight:600;">Support</h4><ul style="list-style:none;margin:0;padding:0;"><li style="padding:8px 0;font-size:14px;"><a href="#">Help center</a></li><li style="padding:8px 0;font-size:14px;"><a href="#">Remote support</a></li><li style="padding:8px 0;font-size:14px;"><a href="#">Service status</a></li><li style="padding:8px 0;font-size:14px;"><a href="#">Client portal</a></li><li style="padding:8px 0;font-size:14px;"><a href="contact.html">Emergency support</a></li></ul></div>
+      <div><h4 style="margin:0 0 8px;font-size:16px;font-weight:600;">Contact</h4><ul style="list-style:none;margin:0;padding:0;"><li style="padding:8px 0;font-size:14px;"><a href="mailto:agnesxjh@gmail.com">agnesxjh@gmail.com</a></li><li style="padding:8px 0;font-size:14px;"><a href="tel:0405970743">0405 970 743</a></li><li style="padding:8px 0;font-size:14px;"><a href="contact.html">The Hills District, Sydney NSW</a></li><li style="padding:8px 0;font-size:14px;"><a href="#">ABN 69 661 318 538</a></li></ul></div>
+    </div>
+    <div style="height:1px;width:100%;background:rgba(255,255,255,0.2);"></div>
+    <div style="display:flex;align-items:center;justify-content:space-between;padding-top:32px;font-size:14px;flex-wrap:wrap;gap:16px;">
+      <a href="index.html"><span style="display:inline-flex;background:#fff;border-radius:6px;padding:8px 14px;"><img src="reference/logo/gww-logo.png" alt="GWW Pty Ltd logo" style="height:38px;width:auto;display:block;" /></span></a>
+      <p style="margin:0;font-size:14px;">© 2026 GWW Pty Ltd (ABN 69 661 318 538). All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { submitted: false, sentName: "" };
+  renderVals() {
+    return {
+      submitted: this.state.submitted,
+      notSubmitted: !this.state.submitted,
+      sentName: this.state.sentName || "there",
+      handleSubmit: (e) => {
+        e.preventDefault();
+        const fn = e.target.firstName ? e.target.firstName.value.trim() : "";
+        this.setState({ submitted: true, sentName: fn });
+      },
+      reset: () => this.setState({ submitted: false, sentName: "" }),
+    };
+  }
+}
+</script>
+</body>
+</html>
